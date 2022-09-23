@@ -1,0 +1,29 @@
+body {
+  background-color: antiquewhite;
+}
+.container {
+  margin-top: 15%;
+  margin-left: 33%;
+  text-align: center;
+  width: 30%;
+  padding: 2%;
+  border: 1px solid brown;
+  border-radius: 15px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  font-size: larger;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(214, 187, 187);
+}
+#showClock {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: azure;
+  font-size: larger;
+}
