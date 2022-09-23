@@ -1,0 +1,66 @@
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+.container {
+  margin-top: 12%;
+  padding: 2%;
+  margin-left: 23%;
+  width: 50%;
+  border: 2px solid gray;
+  border-radius: 20px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.main {
+  padding: 2%;
+  text-align: center;
+  height: 50px;
+  border: 5px solid gray;
+  border-radius: 12px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 81, 0.9556197478991597) 74%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.display {
+  margin-top: 1%;
+  font-family: monospace;
+  font-size: xx-large;
+  color: azure;
+}
+.buttons {
+  margin-left: 25%;
+}
+button {
+  color: blueviolet;
+  margin: 1%;
+  width: 20%;
+  padding: 1%;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  background-color: antiquewhite;
+}
+button:hover {
+  color: gold;
+  background-color: cadetblue;
+  font-size: x-large;
+  cursor: grab;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
+    text-decoration: wavy;
+}
